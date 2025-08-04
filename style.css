@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,6 @@ body {
     color: #222;
 }
 
-/* Header styles */
 header {
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,.04);
@@ -55,7 +54,7 @@ nav {
     cursor: pointer;
 }
 
-/* Hero section */
+
 .hero {
     background: linear-gradient(90deg, #0366d6 0%, #54a0ff 100%);
     color: #fff;
@@ -95,8 +94,7 @@ nav {
     color: #fff;
 }
 
-/* Footer styles */
-footer {
+.footer {
     background: #222;
     color: #fff;
     padding: 1.5rem 2rem;
@@ -125,8 +123,6 @@ footer {
     height: 28px;
     filter: invert(80%) sepia(18%) saturate(1087%) hue-rotate(188deg) brightness(97%) contrast(96%);
 }
-
-/* Responsive styles */
 @media (max-width: 900px) {
     .footer-content {
         flex-direction: column;
